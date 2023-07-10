@@ -89,7 +89,7 @@ function Blog() {
           <SwiperSlide>
             <div className="bigswiper__sec">
               <div className="swiperimage__sec">
-                <img src="images/Blog/collection1.png" alt="" />
+                <img src="./src/assets/images/Blog/collection1.png" alt="" />
               </div>
               <div className="swipertext__sec">
                 <h1>Bedroom Sets</h1>
@@ -125,14 +125,14 @@ function Blog() {
                 <h4>Alyssa Capito</h4>
               </div>
               <div className="swiperimage__sec">
-                <img src="images/Blog/collection3.png" alt="" />
+                <img src="./src/assets/images/Blog/collection3.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="bigswiper__sec">
               <div className="swiperimage__sec">
-                <img src="images/Blog/bc2.jpeg" alt="" />
+                <img src="./src/assets/images/Blog/bc2.jpeg" alt="" />
               </div>
               <div className="swipertext__sec">
                 <h1>Soft kits</h1>

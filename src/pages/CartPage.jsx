@@ -156,7 +156,7 @@ function CartPage({ products, basket, dispatch }) {
                             <h3>${total} </h3>
                           </div>
                           <div className="cart-remove" onClick={()=>removeproduct(basketItem.id)}>
-                            <img src="./images/iconsremove.png" alt="" />
+                            <img src="./src/assets/images/iconsremove.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -164,7 +164,7 @@ function CartPage({ products, basket, dispatch }) {
                   })
                 ) : (
                   <div className="no-favorit-cart">
-                  <img src="./images/Faqs/empty2.png" alt="" />
+                  <img src="./src/assets/images/Faqs/empty2.png" alt="" />
                     <h1>Your cart is empty</h1>
                     <p>Looks like you have not added anything to you cart. Go ahead & explore top catogeries.</p>
                  
@@ -222,7 +222,7 @@ function CartPage({ products, basket, dispatch }) {
               <button className="shoppingBtn" onClick={toggleCrediModal}>
                 Proceed To Checkout
               </button>
-              <img src="./img/Groupvisa.svg" alt="" srcset="" />
+              <img src="./src/assets/images/CartPage/Groupvisa.svg" alt="" srcset="" />
               <p className="free-p">
                 Discount prices will be active after entering the checkout
                 process

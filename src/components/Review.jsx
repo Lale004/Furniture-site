@@ -126,16 +126,16 @@ function Review() {
     setVal(abc);
     setText(false);
   };
-  const [disabled,setDisabled] =useState(false);
+  const [disabled, setDisabled] = useState(false);
   const saveReview = () => {
-    setArrayRev([rev,...arrayRev ]);
+    setArrayRev([rev, ...arrayRev]);
     setTimeout(() => {
       setIsLoading(false);
       setButtonMessage("Success!!");
       setFormState(initalForm);
     }, 1000);
-    
-    setVal([])
+
+    setVal([]);
     setDisabled(true);
   };
   const inputValue = (e) => {
@@ -155,18 +155,18 @@ function Review() {
 
   return (
     <>
-    <div className="rev-sec">
-    <div className="review-title">
-        <h3>Reviews ({reviews.length})</h3>
-        {text ? (
-          <button onClick={() => handleAdd()}>Write a review</button>
-        ) : (
-          <button  onClick={saveReview} disabled={disabled}>
-            {loading ? "" : buttonMessage}
-          </button>
-        )}
-      </div>
-      <div className="write-review">
+      <div className="rev-sec">
+        <div className="review-title">
+          <h3>Reviews ({reviews.length})</h3>
+          {text ? (
+            <button onClick={() => handleAdd()}>Write a review</button>
+          ) : (
+            <button onClick={saveReview} disabled={disabled}>
+              {loading ? "" : buttonMessage}
+            </button>
+          )}
+        </div>
+        <div className="write-review">
           {val.length < 2
             ? val.map((data, i) => {
                 return (
@@ -181,42 +181,39 @@ function Review() {
               })
             : ""}
         </div>
-      <div className="reviews">
-       
-        {arrayRev.slice(start, end).map((review, b) => (
-          <div key={b} className="review">
-            <div className="basliq">
-              <div className="author">
-                <p>{review.name}</p>
-              </div>
-              <div className="buy">
-                <p>Verified Buy </p>
-                <div className="buy__icon">
-                <AiFillCheckCircle/>
+        <div className="reviews">
+          {arrayRev.slice(start, end).map((review, b) => (
+            <div key={b} className="review">
+              <div className="basliq">
+                <div className="author">
+                  <p>{review.name}</p>
                 </div>
-               
+                <div className="buy">
+                  <p>Verified Buy </p>
+                  <div className="buy__icon">
+                    <AiFillCheckCircle />
+                  </div>
+                </div>
+                <div className="icons">
+                  <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                  <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                  <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                  <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                  <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                </div>
               </div>
-              <div className="icons">
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
+              <div className="middle">
+                <p>{review.review1}</p>
+                <p>{review.review2}</p>
+              </div>
+              <div className="end">
+                <p>{review.date}</p>
               </div>
             </div>
-            <div className="middle">
-              <p>{review.review1}</p>
-              <p>{review.review2}</p>
-            </div>
-            <div className="end">
-              <p>{review.date}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-    
-     
+
       <Pagination
         totalPageCount={totalPageCount}
         setActivePage={setActivePage}

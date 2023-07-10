@@ -28,7 +28,7 @@ function Navbar({ dispatch, basketCount }) {
         <div className="container">
           <nav>
           <Link to="/"><div className="nav-img">
-              <img src="./images/Home/Green.svg" alt="" />
+              <img src="./src/assets/images/Home/Green.svg" alt="" />
             </div></Link>
             <div className="nav-list">
               <ul className="ul-bir ul-home">
@@ -103,7 +103,7 @@ function Navbar({ dispatch, basketCount }) {
            
               <div className="nav-list" ref={navRef}>
                 <div className="nav-img-res">
-                  <img src="./images/Home/Green.svg" alt="" />
+                  <img src="./src/assets/images/Home/Green.svg" alt="" />
                 </div>
                 <ul className="ul-iki">
                   <li onClick={showNavbar}>

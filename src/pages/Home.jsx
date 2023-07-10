@@ -64,7 +64,7 @@ function Home() {
         <div className="container">
           <div className="collections">
             <div className="collection1">
-              <img src="./images/Home/collection1.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection1.png" alt="cl1" />
 
               <button className="btnGray btn-modal" onClick={toggleHomeModal}>
                 Collection 1
@@ -149,7 +149,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection2.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection2.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol2}>
                 Collection 2
               </button>
@@ -225,7 +225,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection3.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection3.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol3}>
                 Collection 3
               </button>
@@ -301,7 +301,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection4.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection4.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol4}>
                 Collection 4
               </button>
@@ -377,7 +377,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection5.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection5.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol5}>
                 Collection 5
               </button>
@@ -460,7 +460,7 @@ function Home() {
           <div className="premium">
             <div className="premium-col">
               <div className="prm-img">
-                <img src="./images/Home/order.png" alt="order" />
+                <img src="./src/assets/images/Home/order.png" alt="order" />
               </div>
 
               <h2>8 YEAR GUARANTEE</h2>
@@ -468,7 +468,7 @@ function Home() {
             </div>
             <div className="premium-col">
               <div className="prm-img">
-                <img src="./images/Home/rust.png" alt="order" />
+                <img src="./src/assets/images/Home/rust.png" alt="order" />
               </div>
 
               <h2>Rust Free</h2>
@@ -476,7 +476,7 @@ function Home() {
             </div>
             <div className="premium-col">
               <div className="prm-img">
-                <img src="./images/Home/premium.png" alt="order" />
+                <img src="./src/assets/images/Home/premium.png" alt="order" />
               </div>
 
               <h2>PREMIUM SERVICE</h2>
@@ -539,7 +539,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set1.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set1.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -554,7 +554,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set2.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set2.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -568,7 +568,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set3.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set3.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -582,7 +582,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set4.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set4.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -597,7 +597,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set1.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set1.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -612,7 +612,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set2.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set2.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -626,7 +626,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set3.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set3.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -640,7 +640,7 @@ function Home() {
                 <Link to="/products">
                   <div className="set">
                     <div className="set-img">
-                      <img src="../images/ProductPage/set4.png" alt="" />
+                      <img src="./src/assets/images/ProductPage/set4.png" alt="" />
                     </div>
                     <div className="set-details">
                       <p className="set-name">Alma Velvet Armless</p>
@@ -658,7 +658,7 @@ function Home() {
       <section>
         <div className="section-image">
           <div className="sel-text">
-            <img src="./images/Home/iyne.png" alt="iyne" />
+            <img src="./src/assets/images/Home/iyne.png" alt="iyne" />
             <p>COMMITED TO EUROPIAN MANUFACTURING</p>
             <h1>
               our Products are made with high quality european fabric and sewn
@@ -677,7 +677,7 @@ function Home() {
           </div>
           <div className="collections">
             <div className="collection1">
-              <img src="./images/Home/collection1.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection1.png" alt="cl1" />
 
               <button className="btnGray btn-modal" onClick={toggleHomeModal}>
                 Collection 1
@@ -762,7 +762,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection2.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection2.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol2}>
                 Collection 2
               </button>
@@ -838,7 +838,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection3.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection3.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol3}>
                 Collection 3
               </button>
@@ -914,7 +914,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection4.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection4.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol4}>
                 Collection 4
               </button>
@@ -990,7 +990,7 @@ function Home() {
               )}
             </div>
             <div className="collection2">
-              <img src="./images/Home/collection5.png" alt="cl1" />
+              <img src="./src/assets/images/Home/collection5.png" alt="cl1" />
               <button className="btnGray" onClick={toggleHomeModalCol5}>
                 Collection 5
               </button>
@@ -1082,19 +1082,19 @@ A furniture website typically features a user-friendly interface that allows cus
               <div className="coment">
                 <ul>
                   <li>
-                    <img src="./images/Home/ulduz.svg" alt="" />
+                    <img src="./src/assets/images/Home/ulduz.svg" alt="" />
                   </li>
                   <li>
-                    <img src="./images/Home/ulduz.svg" alt="" />
+                    <img src="./src/assets/images/Home/ulduz.svg" alt="" />
                   </li>
                   <li>
-                    <img src="./images/Home/ulduz.svg" alt="" />
+                    <img src="./src/assets/images/Home/ulduz.svg" alt="" />
                   </li>
                   <li>
-                    <img src="./images/Home/ulduz.svg" alt="" />
+                    <img src="./src/assets/images/Home/ulduz.svg" alt="" />
                   </li>
                   <li>
-                    <img src="./images/Home/ulduz.svg" alt="" />
+                    <img src="./src/assets/images/Home/ulduz.svg" alt="" />
                   </li>
                 </ul>
                 <h3>Wade Warren</h3>
@@ -1166,7 +1166,7 @@ A furniture website typically features a user-friendly interface that allows cus
           <Link to="/product/46">
             {" "}
             <div className="footer-img-col">
-              <img src="./images/Home/collection3.png" alt="" />
+              <img src="./src/assets/images/Home/collection3.png" alt="" />
               <div className="overlay-foter-home">
                 <div className="whiteBtn">View Product</div>
               </div>
@@ -1182,7 +1182,7 @@ A furniture website typically features a user-friendly interface that allows cus
           </Link>
           <Link to="/product/57">
             <div className="footer-img-col">
-              <img src="./images/Home/foter2.png" alt="" />
+              <img src="./src/assets/images/Home/foter2.png" alt="" />
               <div className="overlay-foter-home">
                 <div className="whiteBtn">View Product</div>
               </div>
@@ -1190,7 +1190,7 @@ A furniture website typically features a user-friendly interface that allows cus
           </Link>
           <Link to="/product/57">
             <div className="footer-img-col">
-              <img src="./images/Home/collection4.png" alt="" />
+              <img src="./src/assets/images/Home/collection4.png" alt="" />
               <div className="overlay-foter-home">
                 <div className="whiteBtn">View Product</div>
               </div>

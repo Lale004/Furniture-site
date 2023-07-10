@@ -273,7 +273,7 @@ function ProductPage({ dispatch }) {
             <SwiperSlide> <Link to="/products">
               <div className="set">
                 <div className="set-img">
-                  <img src="../images/ProductPage/set1.png" alt="" />
+                  <img src="./src/assets/images/ProductPage/set1.png" alt="" />
                 </div>
                 <div className="set-details">
                   <p className="set-name">Alma Velvet Armless</p>
@@ -285,7 +285,7 @@ function ProductPage({ dispatch }) {
             <SwiperSlide> <Link to="/products">
               <div className="set">
                 <div className="set-img">
-                  <img src="../images/ProductPage/set2.png" alt="" />
+                  <img src="./src/assets/images/ProductPage/set2.png" alt="" />
                 </div>
                 <div className="set-details">
                   <p className="set-name">Alma Velvet Armless</p>
@@ -298,7 +298,7 @@ function ProductPage({ dispatch }) {
               <Link to="/products">
                 <div className="set">
                   <div className="set-img">
-                    <img src="../images/ProductPage/set3.png" alt="" />
+                    <img src="./src/assets/images/ProductPage/set3.png" alt="" />
                   </div>
                   <div className="set-details">
                     <p className="set-name">Alma Velvet Armless</p>
@@ -312,7 +312,7 @@ function ProductPage({ dispatch }) {
               <Link to="/products">
                 <div className="set">
                   <div className="set-img">
-                    <img src="../images/ProductPage/set4.png" alt="" />
+                    <img src="./src/assets/images/ProductPage/set4.png" alt="" />
                   </div>
                   <div className="set-details">
                     <p className="set-name">Alma Velvet Armless</p>
@@ -324,7 +324,7 @@ function ProductPage({ dispatch }) {
             <SwiperSlide> <Link to="/products">
               <div className="set">
                 <div className="set-img">
-                  <img src="../images/ProductPage/set1.png" alt="" />
+                  <img src="./src/assets/images/ProductPage/set1.png" alt="" />
                 </div>
                 <div className="set-details">
                   <p className="set-name">Alma Velvet Armless</p>
@@ -349,7 +349,7 @@ function ProductPage({ dispatch }) {
               <Link to="/products">
                 <div className="set">
                   <div className="set-img">
-                    <img src="../images/ProductPage/set3.png" alt="" />
+                    <img src="./src/assets/images/ProductPage/set3.png" alt="" />
                   </div>
                   <div className="set-details">
                     <p className="set-name">Alma Velvet Armless</p>
@@ -363,7 +363,7 @@ function ProductPage({ dispatch }) {
               <Link to="/products">
                 <div className="set">
                   <div className="set-img">
-                    <img src="../images/ProductPage/set4.png" alt="" />
+                    <img src="./src/assets/images/ProductPage/set4.png" alt="" />
                   </div>
                   <div className="set-details">
                     <p className="set-name">Alma Velvet Armless</p>

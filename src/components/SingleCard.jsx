@@ -53,11 +53,11 @@ function SingleCard({ props, products, basket, dispatch }) {
             </div>
             <div className="starss">
               <div className="star_div">
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
-                <img src="../images/ProductPage/star.png" alt="" />
+                <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                <img src="../src/assets/images/ProductPage/star.png" alt="" />
+                <img src="../src/assets/images/ProductPage/star.png" alt="" />
               </div>
 
               <p>5.00 (200 customer review)</p>
@@ -86,13 +86,13 @@ function SingleCard({ props, products, basket, dispatch }) {
               </p>
             </div>
             <div className="bank">
-              <img src="../images/ProductPage/Frame 177.png" alt="" />
-              <img src="../images/ProductPage/Frame 178.png" alt="" />
-              <img src="../images/ProductPage/Frame 181.png" alt="" />
-              <img src="../images/ProductPage/Frame 180.png" alt="" />
+              <img src="../src/assets/images/ProductPage/Frame 177.png" alt="" />
+              <img src="../src/assets/images/ProductPage/Frame 178.png" alt="" />
+              <img src="../src/assets/images/ProductPage/Frame 181.png" alt="" />
+              <img src="../src/assets/images/ProductPage/Frame 180.png" alt="" />
             </div>
             <div className="delivery">
-              <img src="../images/ProductPage/carbon_delivery.png" alt="" />
+              <img src="../src/assets/images/ProductPage/carbon_delivery.png" alt="" />
               <div className="delivery-text">
                 <p>Free UK Delivery</p>
                 <p>

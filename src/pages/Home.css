@@ -58,7 +58,7 @@ p {
 
 .heder-img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(./images/Home/bc1.png);
+    url(./src/assets/images/Home/bc1.png);
 
   background-position: center;
   background-size: cover;
@@ -441,7 +441,7 @@ background-color: #3a5041 !important;
 /* section-image */
 .section-image {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url(./images/Home/bc4.png);
+    url(./src/assets/images/Home/bc4.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -645,7 +645,7 @@ background-color: #3a5041 !important;
 .foter-background {
   overflow: hidden;
   /* margin: -2px 0; */
-  background: url(./images/Home/foterbc.png);
+  background: url(./src/assets/images/Home/foterbc.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

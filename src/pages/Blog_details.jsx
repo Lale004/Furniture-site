@@ -89,7 +89,7 @@ function Blog_details() {
 
 <div className="info__card">
 
-<img src="/images/Blog/Content.svg" alt="" />
+<img src="./src/assets/images/Blog/Content.svg" alt="" />
     
 </div>
 

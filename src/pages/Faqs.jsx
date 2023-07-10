@@ -15,7 +15,7 @@ function Faqs() {
         
         </div>
         <div className="faq-headar-img">
-          <img src="./images/contact/sual3.png" alt="" />
+          <img src="./src/assets/images/contact/sual3.png" alt="" />
         </div>
           </div>
        

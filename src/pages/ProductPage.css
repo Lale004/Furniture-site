@@ -770,7 +770,7 @@ background-color: #ae7558;
 
 /* //footer1 */
 .footer-img {
-  background-image: url("../images/footer.png");
+  background-image: url("./src/assets/images/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

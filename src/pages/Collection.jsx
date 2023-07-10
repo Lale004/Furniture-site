@@ -491,7 +491,7 @@ function Collection() {
                   ))
               ) : (
                 <div className="no-favorit-produst">
-                  <img src="./images/Faqs/empty1.png" alt="" />
+                  <img src="./src/assets/images/Faqs/empty1.png" alt="" />
                   <h1>Searched result not found</h1>
                 </div>
               )}

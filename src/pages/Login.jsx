@@ -125,14 +125,14 @@ function Sign() {
                     <div className="overlay-sign">
                         <div className="overlay-panel overlay-left">
                             <div className="overlay-img">
-                                <img src="./images/Login/Green.png" alt="" />
+                                <img src="./src/assets/images/Login/Green.png" alt="" />
                             </div>
                             <button className='ghost' id='signIn' onClick={() => setAddClass("")}>GO TO LOGIN</button>
 
                         </div>
                         <div className="overlay-panel overlay-right">
                             <div className="overlay-img">
-                                <img src="./images/Login/Green.png" alt="" />
+                                <img src="./src/assets/images/Login/Green.png" alt="" />
                             </div>
                             <button className='ghost' id='signUp' onClick={() => setAddClass("right-panel-active")}>GO TO REGISTER</button>
                         </div>

@@ -18,7 +18,7 @@ function Footer() {
         <h5>Get In Touch support@Meridian.com </h5>
       </div>
       <div className="back-tel">
-        <button> <img src="./images/Home/tel.svg" alt="" /> 01789 339533</button>
+        <button> <img src="./src/assets/images/Home/tel.svg" alt="" /> 01789 339533</button>
         <h5>8am to 6pm, 7 days a week</h5>
       </div>
     </div>
@@ -27,7 +27,7 @@ function Footer() {
 <div className="footer">
   <div className="container">
     <div className="foter-m">
-      <img src="./images/Home/m.svg" alt="" />
+      <img src="./src/assets/images/Home/m.svg" alt="" />
     </div>
     <div className="footer-text">
       <div className="footer-col-1">
@@ -36,8 +36,8 @@ function Footer() {
         </h3>
         <p>32 Plum St, Trenton, NJ 08638, United States</p>
         <div className="footer-contact">
-          <p><img src="./images/Home/tel2.svg" alt="tel" /> 01789 730695</p>
-          <p><img src="./images/Home/mail.svg" alt="tel" />support@Meridian.com</p>
+          <p><img src="./src/assets/images/Home/tel2.svg" alt="tel" /> 01789 730695</p>
+          <p><img src="./src/assets/images/Home/mail.svg" alt="tel" />support@Meridian.com</p>
         </div>
 
 
@@ -76,7 +76,7 @@ function Footer() {
         <h3>Join Meridian for Exclusive Offers</h3>
         <div className="footer-mail">
           <input type="email"  placeholder='Email adress' />
-          <button><img src="./images/Home/arrow.svg" alt="arrow" /></button>
+          <button><img src="./src/assets/images/Home/arrow.svg" alt="arrow" /></button>
         </div>
         <p>Our newsletter is packed full of style ideas, new products and exclusive disounts. We are GDPR compliant, your information is secure with us.</p>
       </div>
@@ -105,10 +105,10 @@ function Footer() {
       </ul>
     </div>
     <div className="footer-cart-img">
-      <img src="./images/Home/visa.png" alt="" />
-      <img src="./images/Home/visa2.png" alt="" />
-      <img src="./images/Home/visa3.png" alt="" />
-      <img src="./images/Home/visa4.png" alt="" />
+      <img src="./src/assets/images/Home/visa.png" alt="" />
+      <img src="./src/assets/images/Home/visa2.png" alt="" />
+      <img src="./src/assets/images/Home/visa3.png" alt="" />
+      <img src="./src/assets/images/Home/visa4.png" alt="" />
 
     </div>
 

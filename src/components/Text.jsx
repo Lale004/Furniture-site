@@ -25,9 +25,9 @@ function Text() {
           <span> <FaTwitter/> </span> 
           <span> <FaPinterest/></span> 
           </div>
-          <img className="emil-ico" src="./images/contact/email-icon.png" alt="" />
+          <img className="emil-ico" src="../src/assets/images/Contact/email-icon.png" alt="" />
         </div>
-        <img className="wave" src="./images/contact/arxas.png" alt="" />
+        <img className="wave" src="../src/assets/images/contact/arxas.png" alt="" />
         
 
       </div>
@@ -45,7 +45,7 @@ function Text() {
           <div className="contactt">
             <div className="contact-col">
               <span>
-                <img src="./images/Contact/tel.svg" alt="tel" />
+                <img src="../src/assets/images/Contact/tel.svg" alt="tel" />
               </span>
               <div className="contact-about">
                 <h3>Phone Number</h3>
@@ -54,7 +54,7 @@ function Text() {
             </div>
             <div className="contact-col">
               <span>
-                <img src="./images/Contact/mail.svg" alt="mail" />
+                <img src="../src/assets/images/Contact/mail.svg" alt="mail" />
               </span>
               <div className="contact-about" >
                 <h3>Email</h3>
@@ -63,7 +63,7 @@ function Text() {
             </div>
             <div className="contact-col">
               <span>
-                <img src="./images/Contact/konum.svg" alt="konum" />
+                <img src="../src/assets/images/Contact/konum.svg" alt="konum" />
               </span>
               <div className="contact-about">
                 <h3>Map Street</h3>

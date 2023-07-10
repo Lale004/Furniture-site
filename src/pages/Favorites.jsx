@@ -258,7 +258,7 @@ function Favorites({ products, favorites, basket, dispatch }) {
           </div>
         ) : (
           <div className="no-favorit">
-          <img src="./images/Faqs/empty1.png" alt="" />
+          <img src="./src/assets/images/Faqs/empty1.png" alt="" />
             <h1>Your cart is empty</h1>
             <p>Looks like you have not added anything to you cart. Go ahead & explore top catogeries.</p>
             <Link to="/products">

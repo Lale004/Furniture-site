@@ -9,7 +9,7 @@
     position: relative;
     height: 50vh;
   
-    background-image: url(/images/Blog/Banner.png);
+    background-image: url(./src/assets/images/Blog/Banner.png);
     background-position: center;
     background-repeat: no-repeat;
   
